@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Samples/XR Interaction Toolkit/2.5.3/Starter Assets/DemoScene.unity
     guid: 319dafa5c80f29f428dc1e0d03f04177
   - enabled: 0
-    path: Assets/ProfessionalAssets/DronePack/Scenes/DronePlayground [OpenVR].unity
+    path: Assets/Drone/DronePack/Scenes/DronePlayground [OpenVR].unity
     guid: 2afa37533659ea543a316b3dc0fc3aa5
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1275c787cd1e64a21b3d4b6ec5811c8d, type: 2}
