@@ -6,12 +6,13 @@
             "id": "ae7f3d58-7888-4382-9c24-48c75f8679c1",
             "actions": [
                 {
-                    "name": "Cyclic",
+                    "name": "Cyclic KB",
                     "type": "PassThrough",
                     "id": "ff289b47-df63-4091-8308-1b21cb5682db",
                     "expectedControlType": "Vector2",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Pedals",
@@ -19,7 +20,8 @@
                     "id": "169fefc0-9bc4-416c-8b7f-3eeb85456890",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": false
                 },
                 {
                     "name": "Throttle",
@@ -27,7 +29,17 @@
                     "id": "a4f778fd-0963-441e-b48e-c58422c29ecb",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Cyclic",
+                    "type": "Value",
+                    "id": "7d8ac951-0563-42d8-b9e4-8c1723554369",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -38,7 +50,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Cyclic",
+                    "action": "Cyclic KB",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -49,7 +61,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Cyclic",
+                    "action": "Cyclic KB",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -60,7 +72,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Cyclic",
+                    "action": "Cyclic KB",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -71,7 +83,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Cyclic",
+                    "action": "Cyclic KB",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -82,7 +94,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Cyclic",
+                    "action": "Cyclic KB",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -93,7 +105,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Cyclic",
+                    "action": "Cyclic KB",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -104,7 +116,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Cyclic",
+                    "action": "Cyclic KB",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -115,7 +127,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Cyclic",
+                    "action": "Cyclic KB",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -126,7 +138,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Cyclic",
+                    "action": "Cyclic KB",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -137,7 +149,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Cyclic",
+                    "action": "Cyclic KB",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -200,6 +212,39 @@
                     "name": "positive",
                     "id": "7f62f03c-62cb-4475-bd14-a9aefd61d39c",
                     "path": "<XInputController>/rightStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pedals",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "d98cfc43-375e-4247-9b60-a2d7fd919630",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pedals",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "462f5812-e27f-4e20-bbe8-143f6e765948",
+                    "path": "<XRController>/thumbstickTouched",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pedals",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "b305c20c-4847-4fce-b1ac-6ae90e55ad48",
+                    "path": "<XRController>/thumbstickTouched",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -272,6 +317,50 @@
                     "action": "Throttle",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "95f7e45d-3629-493e-96a8-8f49984e6ba2",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throttle",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "5a204cfa-baaa-44c7-a4da-0c0fb71cf37b",
+                    "path": "<XRController>/gripButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throttle",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "6546fb12-d6e0-4532-9a94-0a8713f7b979",
+                    "path": "<XRController>/triggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throttle",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "7225d4b8-382d-4220-ace0-02e8662bf7ea",
+                    "path": "<OculusTouchController>/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
