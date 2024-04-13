@@ -16,10 +16,18 @@ namespace IndiePixel
         protected Rigidbody rb;
         protected float startDrag;
         protected float startAngularDrag;
+        protected bool droneState;
         #endregion
 
         #region Main Methods
         // Start is called before the first frame update
+
+        public void ActiveDrone(bool inDroneState)
+        {
+            droneState = inDroneState;
+        }
+
+
         void Awake()
         {
             rb = GetComponent<Rigidbody>();

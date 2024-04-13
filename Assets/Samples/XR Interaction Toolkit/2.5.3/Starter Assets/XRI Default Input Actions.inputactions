@@ -2603,12 +2603,21 @@
         },
         {
             "name": "Drone",
-            "id": "dd0a2c27-ed78-4e34-822b-0d075a3f7b90",
+            "id": "4cfd2c76-2724-4604-8316-41a2ea670925",
             "actions": [
+                {
+                    "name": "Cyclic KB",
+                    "type": "PassThrough",
+                    "id": "bd609b52-3823-4145-aff1-bafc5052965f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
                 {
                     "name": "Pedals",
                     "type": "PassThrough",
-                    "id": "9b5867c5-8ad9-462c-8967-809e8175eaec",
+                    "id": "c469c6b8-9934-4b45-acec-f02bc6521e60",
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
@@ -2617,7 +2626,7 @@
                 {
                     "name": "Throttle",
                     "type": "Value",
-                    "id": "b5f261c1-0d1e-40d7-be4f-719bb804299c",
+                    "id": "ca5131b5-65f0-48f2-8030-5b01c98007f4",
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
@@ -2626,7 +2635,7 @@
                 {
                     "name": "Cyclic",
                     "type": "Value",
-                    "id": "2b9bf8e2-daea-4a80-bfb7-0f5b9c28bb8f",
+                    "id": "c1ec1eb4-f8b2-4e80-9364-4bd5ef992b64",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -2635,8 +2644,118 @@
             ],
             "bindings": [
                 {
+                    "name": "WASD",
+                    "id": "9ed5f92f-5c29-4f17-9829-14a03710f380",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic KB",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "cba34ff2-3928-4604-96aa-9496674cf55b",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic KB",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "e82ea1ab-d124-44fa-b7d0-82def931f264",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic KB",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "5f362e15-f9f4-4ac6-8c0a-744924ef3457",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic KB",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "ec44b939-1ea1-4bc0-ab64-89740a67418d",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic KB",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "LStick",
+                    "id": "9a2ae19d-a76b-427d-ae19-56493b46b80b",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic KB",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "9a019b80-d2e4-42ba-a810-912a3daaf0ff",
+                    "path": "<XInputController>/leftStick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic KB",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "25159d49-6c70-401e-aa73-406e1c4a7550",
+                    "path": "<XInputController>/leftStick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic KB",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "ddf656b2-3360-4e75-864f-27de1a90b9a2",
+                    "path": "<XInputController>/leftStick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic KB",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "f117ff99-1c0a-40fb-a673-74d19c1a64a0",
+                    "path": "<XInputController>/leftStick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cyclic KB",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "Arrows",
-                    "id": "fdda693e-bb9f-41e8-acbf-156f2d7b9330",
+                    "id": "6b3da238-5add-45a9-b096-16b212a46ea0",
                     "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
@@ -2647,7 +2766,7 @@
                 },
                 {
                     "name": "negative",
-                    "id": "f8014aaa-dcef-4d83-8e75-e57f954deb6f",
+                    "id": "418d7197-a24b-4168-99f8-8b3ad70a86bf",
                     "path": "<Keyboard>/leftArrow",
                     "interactions": "",
                     "processors": "",
@@ -2658,7 +2777,7 @@
                 },
                 {
                     "name": "positive",
-                    "id": "3d658473-8918-440a-a554-aa0e006ca8d0",
+                    "id": "631aed40-2052-4afa-9b4a-add4f33cce39",
                     "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
@@ -2669,7 +2788,7 @@
                 },
                 {
                     "name": "RStick",
-                    "id": "53d8710d-3b44-4f54-9d6f-f00f2626a986",
+                    "id": "6d39e48b-1f4c-4c11-8f0e-44a7bc7c6e03",
                     "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
@@ -2680,7 +2799,7 @@
                 },
                 {
                     "name": "negative",
-                    "id": "5661c081-9fdd-456b-ab16-b33cfe006119",
+                    "id": "0e1c09af-a53c-439c-b33d-7002eb3e3e14",
                     "path": "<XInputController>/rightStick/left",
                     "interactions": "",
                     "processors": "",
@@ -2691,7 +2810,7 @@
                 },
                 {
                     "name": "positive",
-                    "id": "1407da7d-b6c3-4c67-8d81-36bb0da2758a",
+                    "id": "a30f3700-e262-4d3b-89a7-d591aae9c4c3",
                     "path": "<XInputController>/rightStick/right",
                     "interactions": "",
                     "processors": "",
@@ -2702,7 +2821,7 @@
                 },
                 {
                     "name": "1D Axis",
-                    "id": "bf9634c3-538c-4299-9947-ec60d1afbeec",
+                    "id": "bb7b399c-e080-417e-8e66-1f3a2f2a0735",
                     "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
@@ -2713,7 +2832,7 @@
                 },
                 {
                     "name": "negative",
-                    "id": "aab0ffda-d2c9-401f-90ff-7af98352cb98",
+                    "id": "c899799d-9a7e-4704-9002-181cf14260fd",
                     "path": "<XRController>/thumbstickTouched",
                     "interactions": "",
                     "processors": "",
@@ -2724,7 +2843,7 @@
                 },
                 {
                     "name": "positive",
-                    "id": "d40234b4-c071-43c4-8ecd-4b9d5d416daf",
+                    "id": "acc61b55-ed73-4c4e-845b-799ae3955f90",
                     "path": "<XRController>/thumbstickTouched",
                     "interactions": "",
                     "processors": "",
@@ -2735,7 +2854,7 @@
                 },
                 {
                     "name": "Arrows",
-                    "id": "5f16c9e6-b203-4534-bef2-6ad57e0fdddd",
+                    "id": "6df7bfbd-e94a-41b2-b08d-617490f8a5e6",
                     "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
@@ -2746,7 +2865,7 @@
                 },
                 {
                     "name": "negative",
-                    "id": "086ef04c-3246-4399-814d-109a473f05d6",
+                    "id": "fe109702-fa3b-40a3-a846-72e7a7d18ab5",
                     "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
@@ -2757,7 +2876,7 @@
                 },
                 {
                     "name": "positive",
-                    "id": "e9c5f9c5-8bee-4ef0-8475-391b1f3250b4",
+                    "id": "def8aead-2e80-44c1-8af3-37daabedd84c",
                     "path": "<Keyboard>/upArrow",
                     "interactions": "",
                     "processors": "",
@@ -2768,7 +2887,7 @@
                 },
                 {
                     "name": "RStick",
-                    "id": "dd6821f4-f9c9-4632-9c03-d1972f32770f",
+                    "id": "d04e3b69-9a6d-41cd-b7cd-13bf472142e8",
                     "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
@@ -2779,7 +2898,7 @@
                 },
                 {
                     "name": "negative",
-                    "id": "938c5017-2e0e-419d-b19e-607fc782269f",
+                    "id": "c547756c-7e03-4015-9c21-a99d64287ff1",
                     "path": "<XInputController>/rightStick/down",
                     "interactions": "",
                     "processors": "",
@@ -2790,7 +2909,7 @@
                 },
                 {
                     "name": "positive",
-                    "id": "6a1764fa-383b-4ef3-923c-c58c6ae900ac",
+                    "id": "0d897959-63bd-4f46-91e9-7f10ac891572",
                     "path": "<XInputController>/rightStick/up",
                     "interactions": "",
                     "processors": "",
@@ -2801,7 +2920,7 @@
                 },
                 {
                     "name": "1D Axis",
-                    "id": "58ba2c52-7e58-4fb1-b4aa-3241a72a0f17",
+                    "id": "1febba17-4fb5-4d69-9edc-8560c85051e5",
                     "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
@@ -2812,8 +2931,8 @@
                 },
                 {
                     "name": "negative",
-                    "id": "28b2ea68-106b-4668-af55-ccc828ecaeff",
-                    "path": "<XRController>/gripButton",
+                    "id": "bf850222-fedd-476c-8ed8-78e4ffb47d9e",
+                    "path": "<XRController>{LeftHand}/gripButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -2823,8 +2942,8 @@
                 },
                 {
                     "name": "positive",
-                    "id": "08cfa938-fa1b-449a-889c-6de17d974fc4",
-                    "path": "<XRController>/triggerButton",
+                    "id": "e9fbe8ee-9522-4165-ae21-9f283cd7f425",
+                    "path": "<XRController>{RightHand}/gripButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -2834,7 +2953,7 @@
                 },
                 {
                     "name": "",
-                    "id": "9699e50a-a41f-4fd0-bf7d-ab3cbd7bee06",
+                    "id": "21987ca7-fc11-449a-94fe-1aeb197aadf8",
                     "path": "<OculusTouchController>/thumbstick",
                     "interactions": "",
                     "processors": "",

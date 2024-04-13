@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace IndiePixel
-{
     [RequireComponent(typeof(PlayerInput))]
     public class IP_Drone_Inputs : MonoBehaviour
     {
@@ -43,4 +41,4 @@ namespace IndiePixel
         }
         #endregion
     }
-}
+
