@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Drone
   - OilRig
+  - MissionFailed
+  - Water
+  - Ground
   layers:
   - Default
   - TransparentFX
