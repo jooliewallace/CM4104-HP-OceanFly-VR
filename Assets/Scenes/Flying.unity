@@ -2186,7 +2186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: cae7bd101fff4ff4d8ecdaef191105c6, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: cae7bd101fff4ff4d8ecdaef191105c6, type: 3}
       propertyPath: m_LocalScale.x
@@ -2262,6 +2262,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100012, guid: cae7bd101fff4ff4d8ecdaef191105c6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 825100993}
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: cae7bd101fff4ff4d8ecdaef191105c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 825100998}
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: cae7bd101fff4ff4d8ecdaef191105c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 825100999}
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: cae7bd101fff4ff4d8ecdaef191105c6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 825101000}
   m_SourcePrefab: {fileID: 100100000, guid: cae7bd101fff4ff4d8ecdaef191105c6, type: 3}
 --- !u!1 &241910686 stripped
 GameObject:
@@ -3041,6 +3050,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1053855600}
     m_Modifications:
+    - target: {fileID: -9214574314372609095, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -9159189098352448731, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -8957314739552608990, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -8936596499271807457, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -8904950894910375206, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -8882520018921612663, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -8840738696938755079, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -8681658017608811866, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f084a1054923bed4699559e35621655e, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2471502
@@ -3093,6 +3134,50 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8616366639763752932, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -8280561712428297643, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -8236430599437624544, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -7855926898563077194, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -7808710097474433310, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -7673673864817695069, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -7514892533103074313, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -7373684859692836256, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -7140515665676130206, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -7087609031831849695, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -6976183836792653567, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
     - target: {fileID: -6895642029399544402, guid: f084a1054923bed4699559e35621655e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.63
@@ -3104,6 +3189,58 @@ PrefabInstance:
     - target: {fileID: -6895642029399544402, guid: f084a1054923bed4699559e35621655e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 25.708
+      objectReference: {fileID: 0}
+    - target: {fileID: -6837741748221133136, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -6697812933378817804, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -6594970309129562158, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -6329908557090327085, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -6297656106141132036, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -6179596369484007185, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -5965692234080469021, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -5931849913841216580, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -5771829165988989507, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -5740605320457627545, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -5265733230518672504, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -5129855385664223980, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -4951954787243349150, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
       objectReference: {fileID: 0}
     - target: {fileID: -4941048192757990970, guid: f084a1054923bed4699559e35621655e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3117,6 +3254,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 21.77
       objectReference: {fileID: 0}
+    - target: {fileID: -4852542002649096728, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -4535810277051028609, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -4499296685933550171, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
     - target: {fileID: -4430376333123019155, guid: f084a1054923bed4699559e35621655e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.85
@@ -3129,6 +3278,22 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -3.08
       objectReference: {fileID: 0}
+    - target: {fileID: -4393070393546081206, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -4391895432431654470, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -3790495074891203526, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -3742470167315977074, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
     - target: {fileID: -3738913617553409017, guid: f084a1054923bed4699559e35621655e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.54
@@ -3140,6 +3305,122 @@ PrefabInstance:
     - target: {fileID: -3738913617553409017, guid: f084a1054923bed4699559e35621655e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 15.94
+      objectReference: {fileID: 0}
+    - target: {fileID: -3704767796286494600, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -3663963564827909999, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -3657588241816484949, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -3523459204870788263, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -3363171429316659220, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -3261507144977266207, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -3157573288505248488, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -3156305859612269828, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -3148109105688470063, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -3147754370944900372, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -2454440282411050767, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -2194861773750931917, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -2172660959565176480, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -2133737876987893261, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -1973068168757119769, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -1931544614027231843, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -1763846963658425681, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -1677702322151110114, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -1636511411790491512, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -1452619902025256971, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -1203160221979744661, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -1105420452487241984, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -823399026142397873, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -569203894268597645, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -483570706804790946, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -353467091595613501, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -215179825598586054, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: -199406834488831686, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 18731234639995846, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
       objectReference: {fileID: 0}
     - target: {fileID: 33549397028691946, guid: f084a1054923bed4699559e35621655e, type: 3}
       propertyPath: m_LocalScale.x
@@ -3165,13 +3446,37 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 16.11
       objectReference: {fileID: 0}
+    - target: {fileID: 462556000259139104, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
     - target: {fileID: 487739210399070173, guid: f084a1054923bed4699559e35621655e, type: 3}
       propertyPath: m_Name
       value: Flare
       objectReference: {fileID: 0}
+    - target: {fileID: 487739210399070173, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 537609493717926278, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
     - target: {fileID: 544573724405078343, guid: f084a1054923bed4699559e35621655e, type: 3}
       propertyPath: m_Name
       value: Derrick
+      objectReference: {fileID: 0}
+    - target: {fileID: 544573724405078343, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 665691006412108775, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 817939002728489533, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f084a1054923bed4699559e35621655e, type: 3}
       propertyPath: m_Name
@@ -3193,6 +3498,42 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 6.05
       objectReference: {fileID: 0}
+    - target: {fileID: 1136627860382312824, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 1306269382672743180, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 1421275685403193294, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477009957858916361, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493893569622789101, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 1629749804434197049, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799388181281188786, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 1813023568075921547, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 2130972105088631028, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
     - target: {fileID: 2289087157517612420, guid: f084a1054923bed4699559e35621655e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.24
@@ -3205,10 +3546,66 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 10.63
       objectReference: {fileID: 0}
+    - target: {fileID: 2327418273352870738, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 2329283375730033305, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
     - target: {fileID: 2387719860203663858, guid: f084a1054923bed4699559e35621655e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 401ad4983cc206c4f923a26dd2542db1, type: 2}
+    - target: {fileID: 2551692504626398016, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 2571986641968566094, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 2624769922457173473, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 2694502818320809725, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 2864855003646714990, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 2944456600636023701, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 3418927880718909098, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 3874203750174074606, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 3877140355262988793, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878197101605627221, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976847640404007952, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 3995028765747120406, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
     - target: {fileID: 4003996250842697380, guid: f084a1054923bed4699559e35621655e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.38
@@ -3220,6 +3617,78 @@ PrefabInstance:
     - target: {fileID: 4003996250842697380, guid: f084a1054923bed4699559e35621655e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 13.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4061644534549955720, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 4093842159419528986, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 4221026384253738203, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 4279905702312907676, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 4298360543191475445, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300973190286378369, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 4621408037605346062, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 4628350991553500642, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706502508391128804, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806016734445616293, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975961390467162292, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976160978027537329, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 5114120177514601035, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115357674704922148, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 5257775612641202591, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366558759717411579, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369241114231518889, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 5438638383159505009, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
       objectReference: {fileID: 0}
     - target: {fileID: 5623759825892860929, guid: f084a1054923bed4699559e35621655e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3273,6 +3742,106 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.007
       objectReference: {fileID: 0}
+    - target: {fileID: 5721483871140449082, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 6111116468726698822, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225472961119500013, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269537920181605822, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 6395217290941820114, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447511084097481776, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 6653566334785761373, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 6830842594222634550, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964278302307462882, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 7077564790430812159, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 7391532240291913953, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 7417775252799814613, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 7458863607152360484, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 7552118931566586497, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 7566085319717995587, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 7681060550531749314, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 7731213473146661353, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 7875337744490983533, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 8044722300758909434, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 8307834114595959383, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 8636283713948068817, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 8718862626176421306, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 8838043764313128080, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 9061600210356989724, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 9178571019021235276, guid: f084a1054923bed4699559e35621655e, type: 3}
+      propertyPath: m_TagString
+      value: OilRig
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -1865904516107083672, guid: f084a1054923bed4699559e35621655e, type: 3}
@@ -3300,6 +3869,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: f084a1054923bed4699559e35621655e, type: 3}
       insertIndex: 126
       addedObject: {fileID: 649747074}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: f084a1054923bed4699559e35621655e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2141066335}
     - targetCorrespondingSourceObject: {fileID: 2289087157517612420, guid: f084a1054923bed4699559e35621655e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 204182963}
@@ -3307,6 +3879,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 438533768}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f084a1054923bed4699559e35621655e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1443840201}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f084a1054923bed4699559e35621655e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1443840202}
     - targetCorrespondingSourceObject: {fileID: -7087609031831849695, guid: f084a1054923bed4699559e35621655e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2026120364}
@@ -6236,6 +6814,140 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 616383438}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &617011425
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 617011426}
+  - component: {fileID: 617011428}
+  - component: {fileID: 617011427}
+  m_Layer: 5
+  m_Name: CollisionText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &617011426
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617011425}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 696029108}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -95, y: 320}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &617011427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617011425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Collisions
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281208589
+  m_fontColor: {r: 0.049884304, g: 0.057268266, b: 0.1792453, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &617011428
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 617011425}
+  m_CullTransparentMesh: 1
 --- !u!1 &628394362 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7391532240291913953, guid: f084a1054923bed4699559e35621655e, type: 3}
@@ -6653,7 +7365,7 @@ GameObject:
   - component: {fileID: 641327544}
   m_Layer: 0
   m_Name: step_6 (2)
-  m_TagString: Untagged
+  m_TagString: OilRig
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6944,7 +7656,7 @@ GameObject:
   - component: {fileID: 649747075}
   m_Layer: 0
   m_Name: step_6 (4)
-  m_TagString: Untagged
+  m_TagString: OilRig
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7894,19 +8606,21 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 696029104}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: -0.8924961}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 292026073}
   - {fileID: 148646059}
   - {fileID: 887432583}
+  - {fileID: 617011426}
+  - {fileID: 1452627502}
   m_Father: {fileID: 1352488967}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 521, y: 324.0569}
+  m_AnchoredPosition: {x: 55.4, y: -11.6}
   m_SizeDelta: {x: 1149, y: 747}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &696029109
@@ -8276,7 +8990,7 @@ GameObject:
   - component: {fileID: 768720217}
   m_Layer: 0
   m_Name: fence_4 (1)
-  m_TagString: Untagged
+  m_TagString: OilRig
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8624,7 +9338,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &825100995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8672,6 +9386,56 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: cae7bd101fff4ff4d8ecdaef191105c6, type: 3}
   m_PrefabInstance: {fileID: 231651832}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &825100998
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825100992}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.3
+  m_Height: 0.3
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &825100999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825100992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62fc1edd707b64799b03b0326a1a2eaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 1
+  collectSound: {fileID: 8300000, guid: 14a7f85300fd94efbba076188445a6ff, type: 3}
+--- !u!114 &825101000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825100992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d233f389d2d374fa3bedff45f57d213f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1452627503}
 --- !u!1 &831797357 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6225472961119500013, guid: f084a1054923bed4699559e35621655e, type: 3}
@@ -8967,6 +9731,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865162360}
   m_CullTransparentMesh: 1
+--- !u!1 &880603057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2141066335}
+  - component: {fileID: 2141066334}
+  - component: {fileID: 2141066337}
+  - component: {fileID: 2141066336}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: OilRig
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &887432582
 GameObject:
   m_ObjectHideFlags: 0
@@ -11435,7 +12218,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132890865}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1132890869
 Camera:
   m_ObjectHideFlags: 0
@@ -13939,6 +14722,121 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1443254204}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1443840200 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f084a1054923bed4699559e35621655e, type: 3}
+  m_PrefabInstance: {fileID: 349645698}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1443840201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443840200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62fc1edd707b64799b03b0326a1a2eaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 1
+  collectSound: {fileID: 0}
+--- !u!82 &1443840202
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443840200}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 14a7f85300fd94efbba076188445a6ff, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1446478412 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8616366639763752932, guid: f084a1054923bed4699559e35621655e, type: 3}
@@ -14040,6 +14938,140 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4808682210020090, guid: 2ff7704997af3ca468ea39420cfd35ec, type: 3}
   m_PrefabInstance: {fileID: 1449001732}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1452627501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1452627502}
+  - component: {fileID: 1452627504}
+  - component: {fileID: 1452627503}
+  m_Layer: 5
+  m_Name: CollisionText (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1452627502
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452627501}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 696029108}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -95, y: 271}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1452627503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452627501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 0
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281208589
+  m_fontColor: {r: 0.049884304, g: 0.057268266, b: 0.1792453, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1452627504
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452627501}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1460510049
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17157,7 +18189,7 @@ GameObject:
   - component: {fileID: 1829134493}
   m_Layer: 0
   m_Name: step_6 (3)
-  m_TagString: Untagged
+  m_TagString: OilRig
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18135,7 +19167,7 @@ GameObject:
   - component: {fileID: 1892440872}
   m_Layer: 0
   m_Name: fence_4 (2)
-  m_TagString: Untagged
+  m_TagString: OilRig
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20380,6 +21412,92 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72653085a6b827f48b10b434c7972f1c, type: 3}
+--- !u!33 &2141066334
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880603057}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &2141066335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880603057}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -15.82, y: 31.49, z: -16.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1091203865}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2141066336
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880603057}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &2141066337
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880603057}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &2143690614 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6395217290941820114, guid: f084a1054923bed4699559e35621655e, type: 3}
