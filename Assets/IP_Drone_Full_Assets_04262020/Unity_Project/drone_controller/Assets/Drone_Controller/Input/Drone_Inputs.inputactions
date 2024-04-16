@@ -244,7 +244,7 @@
                 {
                     "name": "positive",
                     "id": "b305c20c-4847-4fce-b1ac-6ae90e55ad48",
-                    "path": "<OculusTouchController>{LeftHand}/grip",
+                    "path": "<OculusTouchController>{RightHand}/trigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -332,7 +332,7 @@
                 {
                     "name": "negative",
                     "id": "5a204cfa-baaa-44c7-a4da-0c0fb71cf37b",
-                    "path": "<OculusTouchController>{RightHand}/grip",
+                    "path": "<OculusTouchController>{LeftHand}/grip",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -343,7 +343,7 @@
                 {
                     "name": "positive",
                     "id": "6546fb12-d6e0-4532-9a94-0a8713f7b979",
-                    "path": "<OculusTouchController>{RightHand}/trigger",
+                    "path": "<OculusTouchController>{RightHand}/grip",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
