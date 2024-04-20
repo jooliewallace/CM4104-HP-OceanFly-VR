@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Scene Flying.unity
     guid: 3b29c8ec8ba9841dd92f14974010fff9
   - enabled: 0
+    path: Assets/Scenes/Welcome.unity
+    guid: a75299c55afab468cad38e21d2f352fc
+  - enabled: 1
     path: Assets/Scenes/Exploring.unity
     guid: d0a752b5936e44253a0f1359eadadc99
   - enabled: 1
