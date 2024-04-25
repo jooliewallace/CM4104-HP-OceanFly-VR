@@ -5,25 +5,36 @@ using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
-    public TextMeshProUGUI scoreText; // Use TextMeshProUGUI for TMP text
-    private int score = 0;
+    public TextMeshProUGUI collideText; // Use TextMeshProUGUI for TMP text
+    public TextMeshProUGUI inspectionText; // Use TextMeshProUGUI for TMP text
+    private int collideScore = 0;
+    private int inspectionScore = 0;
 
     private void Start()
     {
         UpdateScoreUI();
+        UpdateInspectionScoreUI();
     }
 
     public void CollectCollision(int points)
     {
-        score += points;
+        collideScore += points;
         UpdateScoreUI();
     }
 
     private void UpdateScoreUI()
     {
-        if (scoreText != null)
-        {
-            scoreText.text = "Collisions: " + score;
-        }
+        collideText.text = "Collisions: " + collideScore.ToString();
+    }
+
+    public void CollectInspection(int points)
+    {
+        inspectionScore += points;
+        UpdateInspectionScoreUI();
+    }
+
+    private void UpdateInspectionScoreUI()
+    {
+        inspectionText.text = "Inspection Area Reached: " + inspectionScore.ToString();
     }
 }
