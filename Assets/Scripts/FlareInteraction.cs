@@ -36,25 +36,29 @@ public class FlareZone : MonoBehaviour
             // Display the message using TMPro
             if (messageText != null)
             {
-                messageText.text = "Mission Failed! You have flown too close to the flare";
+                messageText.text = "You are flying too close to the flare, move back!";
                 messageText.gameObject.SetActive(true);
             }
+        }
+    }
 
-            //// Restart the scene after 5 seconds
-            //Invoke("RestartScene", 5f);
+    void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            isInRange = false;
+
+            // Hide the message
+            if (messageText != null)
+            {
+                messageText.gameObject.SetActive(false);
+            }
         }
     }
 
     void DisplayMessage()
     {
-        // Your interaction logic here
-        UnityEngine.Debug.Log("Performing automatic interaction with the flare zone");
-        // You can add more actions or animations here
+        // Implement what you want to happen when player is in range
+        //Debug.Log("Performing automatic interaction with the flare zone");
     }
-
-    //void RestartScene()
-    //{
-    //    // Restart the current scene
-    //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    //}
 }
